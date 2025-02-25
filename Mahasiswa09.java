@@ -11,6 +11,4 @@ public class Mahasiswa09 {
         System.out.println("IPK     : "+ ipk);
         System.out.println("----------------------------------");
     }
-
-    public void 
 }
