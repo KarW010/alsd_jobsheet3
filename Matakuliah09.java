@@ -5,11 +5,11 @@ public class Matakuliah09 {
     public int sks;
     public int jumlahJam;
 
-    public Matakuliah09(String kode, String nama, int sks, int jumlahJam) {
-        this.kode = kode;
-        this.nama = nama;
-        this.sks = sks;
-        this.jumlahJam = jumlahJam;
+    public Matakuliah09() {
+        this.kode = "";
+        this.nama = "";
+        this.sks = 0;
+        this.jumlahJam = 0;
     }
 
     public void tambahData(Scanner sc) {
