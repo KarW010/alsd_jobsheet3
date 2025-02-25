@@ -33,14 +33,6 @@ public class DosenDemo09 {
             arrayofDosen09[i] = new Dosen09(kode, nama, jenisKelamin, usia);
         }
         
-        int i = 1;
-        for(Dosen09 dosen : arrayofDosen09) {
-            System.out.println("Data Dosen ke-" + i++);
-            System.out.println("Kode          : " + dosen.kode);
-            System.out.println("Nama          : " + dosen.nama);
-            System.out.println("Jenis Kelamin : " + (dosen.jenisKelamin ? "Pria" : "Wanita"));
-            System.out.println("Usia          : " + dosen.usia);
-            System.out.println("----------------------------------");
-        }
+        DataDosen09.dataSemuaDosen(arrayofDosen09);
     }
 }
